@@ -1,0 +1,93 @@
+body {
+  background-color: #e5e5e5;
+}
+#meeting {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.sidebar {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1e5f74;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+
+.imgDiv {
+  width: 100%;
+  display: inline;
+  padding: 10% 0% 5% 0%;
+  cursor: pointer;
+  align-items: inherit;
+}
+.imgDiv:hover {
+  background-color: #133b5c;
+}
+
+.sideBarImgs {
+  display: inline;
+  padding: 0% 2% 0% 4%;
+}
+
+.btnHome {
+  width: 100%;
+  align-self: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #ffffff;
+  opacity: 0.1;
+}
+
+.tableContainer {
+  display: inline-flex;
+  margin-top: 9%;
+  margin-left: 20%;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  box-shadow: 1px 3px #a7a6a6;
+}
+
+/* .tableDiv {
+  background-color: white;
+  border: 1px solid;
+  box-shadow: 0px 5px #888888;
+} */
+.tableHead {
+  color: #1e5f74;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 0;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px 40px 20px 40px;
+  border: 0;
+}
+
+input[type='text'] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+input[type='text']:focus {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
